@@ -19,7 +19,7 @@ body {
 
 .intro {
     padding-left: 10%;
-    padding-top: 7%;
+    padding-top: 9%;
 }
 
 .greet {
@@ -73,6 +73,9 @@ body {
 
 .skill-section {
     display: flex;
+    background-image: url(../img/siders-bg.svg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .skills {
