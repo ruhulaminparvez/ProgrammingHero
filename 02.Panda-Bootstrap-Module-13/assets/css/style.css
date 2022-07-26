@@ -2,9 +2,20 @@
     background-color:#FCEAE8;
 }
 
-.btn-custom {
-    background-color:#FF418C !important;
-    color:#ffffff !important;
+.categories img {
+    width: 100px;
+}
+
+.btn-custom{
+    background-image: linear-gradient(to bottom, #FF588B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+
+.btn-custom:hover{
+    color: #FCEAE8 !important;
 }
 
 .subscribe {
