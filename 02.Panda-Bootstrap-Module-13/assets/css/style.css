@@ -6,3 +6,13 @@
     background-color:#FF418C !important;
     color:#ffffff !important;
 }
+
+.subscribe {
+    background-color: #FCEAE8;
+    height: 350px !important;
+}
+
+.custom-link {
+    text-decoration: none !important;
+    color: black;
+}
