@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/icons/penguin_icon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- custom tailwind-css style -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header class="mx-auto">
+        <nav class="flex justify-around items-center bg-gray-50 p-4">
+            <div>
+                <a href="#"><img class="w-72" src="./assets/images/logo.png" alt="logo"></a>
+            </div>
+            <div>
+                <ul class="flex gap-8">
+                    <a class="text-base font-medium" href="#"><li>Home</li></a>
+                    <a class="text-base font-medium" href="#"><li>Product</li></a>
+                    <a class="text-base font-medium" href="#"><li>About Us</li></a>
+                    <a class="text-base font-medium"href="#"><li>Contact Us</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
