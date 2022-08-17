@@ -24,7 +24,7 @@
         }
     </script>
 </head>
-<body class="bg-emerald-500">
+<body class="bg-emerald-400">
     <header>
         <div class="flex flex-col justify-center items-center my-8">
             <img class="w-64" src="./assets/img/Design stats-bro.svg" alt="E-Wallet">
@@ -32,6 +32,40 @@
             <h4 class="text-md font-medium text-white">Welcome, to my <span class="font-bold">Father's Bank</span> DashBoard</h4>
         </div>
     </header>
-    
+    <main class="bg-emerald-300 p-3 mx-8 mb-8 rounded-lg">
+       <section class="my-12">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+                <div class="bg-teal-500 p-8 rounded-xl">
+                    <h4 class="text-2xl">Deposit</h4>
+                    <h2 class="text-5xl">$00</h2>
+                </div>
+                <div class="bg-rose-400 p-8 rounded-xl">
+                    <h4 class="text-2xl">Withdraw</h4>
+                    <h2 class="text-5xl">$00</h2>
+                </div>
+                <div class="bg-amber-400 p-8 rounded-xl">
+                    <h4 class="text-2xl">Balance</h4>
+                    <h2 class="text-5xl">$1240</h2>
+                </div>
+            </div>
+       </section>
+       <section class="grid grid-cols-2 gap-4 w-9/12 mx-auto text-white my-12">
+        <div class="bg-teal-400 p-8 rounded-xl">
+            <h4 class="text-2xl">Please Deposit</h4>
+            <input class="h-10 w-8/12 p-3 ml-8 mt-5 mb-3 m-auto outline-teal-300 rounded-lg" type="text" name="deposit" placeholder="enter your deposit amount">
+            <button class="bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-full block ml-8">Deposit</button>
+        </div>
+        <div class="bg-rose-300 p-8 rounded-xl">
+            <h4 class="text-2xl">Please Withdraw</h4>
+            <input class="h-10 w-8/12 p-3 ml-8 mt-5 mb-3 m-auto outline-rose-300 rounded-lg" type="text" name="withdraw" placeholder="enter your withdraw amount">
+            <button class="bg-rose-500 hover:bg-rose-700 text-white font-bold py-2 px-4 rounded-full block ml-8">Withdraw</button>
+        </div>
+       </section>
+    </main>
+    <footer>
+        <div class="mb-3">
+            <p class="text-center text-white">&copy; 2022 - <span class="font-semibold">Father's Bank</span> build by <span class="font-semibold"><a class="hover:bg-emerald-300 hover:p-1 hover:rounded" href="https://github.com/ruhulaminparvez" target="_blank">Ruhul Amin Parvez</a></span></p>
+        </div>
+    </footer>
 </body>
 </html>
