@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Father's Bank - LogIn Page</title>
+    <link rel="shortcut icon" href="./assets/img/icon.ico" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- cdn tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- custom styles tailwind css -->
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                clifford: '#da373d',
+            }
+            }
+        }
+        }
+    </script>
+</head>
+<body class="bg-emerald-500">
+    <header>
+        <div class="flex flex-col justify-center items-center my-8">
+            <img class="w-64" src="./assets/img/E-Wallet-bro.svg" alt="E-Wallet">
+            <h1 class="text-4xl font-bold text-white mt-2" >Father's Bank</h1>
+            <h4 class="text-md font-medium text-white">Welcome, to my <span class="font-bold">Father's Bank</span> Login Page</h4>
+        </div>
+    </header>
+    <main>
+        <div class="flex flex-col justify-center items-center h-80 w-100 bg-emerald-300 rounded-lg mx-8 mb-6">
+                <img class="w-40" src="./assets/img/Fingerprint-bro.svg" alt="">
+                <input id="user-mail" class="text-black my-1 w-80 h-10 p-3 rounded-lg" type="text" name="username" placeholder="example@gmail.com">
+                <input id="user-password" class="text-black my-1 w-80 h-10 p-3 rounded-lg" type="password" name="password" placeholder="enter valid password">
+                <button class="text-white w-20 h-8 bg-emerald-600 rounded-lg mt-3 hover:bg-emerald-700" id="login">LogIn</button>
+        </div>
+    </main>
+    <script src="./assets/js/login.js"></script>
+</body>
+</html>
