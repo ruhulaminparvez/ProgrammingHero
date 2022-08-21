@@ -12,8 +12,8 @@ Programming Hero Practices and Tasks Source Codes
 | 03. Convention Center (Bootstrap) | [Convention Center Link](https://abacus-conventions.netlify.app/) |
 | 04. Penguin Fashion (TailWind-CSS) | [Penguin Fashion Link](https://penguin-fashion-center.netlify.app/) |
 | 05. Father's Bank (Tailwind-CSS) | [Father's Bank Link](https://fathersbank.netlify.app/) |
-| 06. Shopping Cart (DOM) | [Shopping Cart Link]() |
-| 07. Pin Matcher (DOM) | [Pin Matcher Link]() |
+| 06. Shopping Cart (DOM) | [Shopping Cart Link](https://shpping-cart.netlify.app/) |
+| 07. Pin Matcher (DOM) | [Pin Matcher Link](https://pin-generatorz.netlify.app/) |
 
 
 
