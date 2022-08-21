@@ -1,6 +1,15 @@
 body{
 	background: #fff;
 }
+
+.title-shopping {
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	margin-top: 15px;
+}
+
 .cart{
 	margin: 100px 0;
 	background-color: #F6F5FA;;
@@ -53,4 +62,20 @@ body{
 	font-size: 19px;
 	background-color: #2FBE70;
 	border: none;
+}
+
+.footer {
+	font-size: 16px;
+	text-align: center;
+	font-weight: 500;
+	color: #333;
+}
+
+.footer > a {
+	text-decoration: none;
+	color: #333;
+}
+
+.footer > a:hover {
+	color: #2FBE70;
 }
