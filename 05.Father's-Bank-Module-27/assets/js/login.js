@@ -5,7 +5,7 @@ document.getElementById('login').addEventListener('click', function() {
     const userPass = document.getElementById('user-password');
     const passField = userPass.value;
 
-    if (userField === 'ruhulamin@gmail.com' && passField === '623492'){
+    if (userField === 'ruhulamin@gmail.com' && passField === '123456'){
         window.location.href = 'dashboard.html';
     } else{
         alert('Invalid User! Please, Enter Correct Password.')
