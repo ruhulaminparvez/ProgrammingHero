@@ -29,8 +29,5 @@ const displayPhones = (phones) => {
 document.getElementById('btn-search').addEventListener('click', function () {
   const getSearchValue = document.getElementById('get-search-value');
   const searchText = getSearchValue.value;
-  console.log(searchText);
   loadPhones(searchText);
 });
-
-// loadPhones();
