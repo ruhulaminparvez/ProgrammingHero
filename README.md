@@ -5,16 +5,16 @@ Programming Hero Practices and Tasks Source Codes
 
 ### Demonstrations 🔗
 
-| **Projects Title** | **Live Preview Links** |
-| --------- | --------------------- |
-| 01. Portfolio (HTML, CSS) | [Portfolio Live Link](https://portfolio-module4.netlify.app/) |
-| 02. Panda E-commerce (Bootstrap) | [Panda E-Commerce Live Link](https://panda-bootstrap-shop.netlify.app/) | 
-| 03. Convention Center (Bootstrap) | [Convention Center Link](https://abacus-conventions.netlify.app/) |
-| 04. Penguin Fashion (TailWind-CSS) | [Penguin Fashion Link](https://penguin-fashion-center.netlify.app/) |
-| 05. Father's Bank (Tailwind-CSS) | [Father's Bank Link](https://fathersbank.netlify.app/) |
-| 06. Shopping Cart (DOM) | [Shopping Cart Link](https://shpping-cart.netlify.app/) |
-| 07. Pin Matcher (DOM) | [Pin Matcher Link](https://pin-generatorz.netlify.app/) |
-| 08. Phone Hunter (Bootstrap+API) | [Phone Hunter Link](https://phone-hunterz.netlify.app/)|
+| **Projects Title** | **Source Code** | **Live Preview Links** |
+| ------------------ | --------------- | ---------------------- |
+| 01. Portfolio (HTML, CSS) | [Source Code](01.Portfolio-Module-4/) | [Portfolio Live Link](https://portfolio-module4.netlify.app/) |
+| 02. Panda E-commerce (Bootstrap) | [Source Code](02.Panda-Bootstrap-Module-13/) | [Panda E-Commerce Live Link](https://panda-bootstrap-shop.netlify.app/) | 
+| 03. Convention Center (Bootstrap) | [Source Code](03.Convention-Center-Module-12.5/) | [Convention Center Link](https://abacus-conventions.netlify.app/) |
+| 04. Penguin Fashion (TailWind-CSS) | [Source Code](04.Penguin-Fashion-Module-14/) | [Penguin Fashion Link](https://penguin-fashion-center.netlify.app/) |
+| 05. Father's Bank (Tailwind-CSS) | [Source Code](05.Father's-Bank-Module-27/) | [Father's Bank Link](https://fathersbank.netlify.app/) |
+| 06. Shopping Cart (DOM) | [Source Code](06.Shopping-Cart-Module-28/) | [Shopping Cart Link](https://shpping-cart.netlify.app/) |
+| 07. Pin Matcher (DOM) | [Source Code](07.Pin-Matcher-Module-28.5/) | [Pin Matcher Link](https://pin-generatorz.netlify.app/) |
+| 08. Phone Hunter (Bootstrap+API) | [Source Code](08.Phone-Hunter-APIs-Module-34/) | [Phone Hunter Link](https://phone-hunterz.netlify.app/)|
 
 
 
