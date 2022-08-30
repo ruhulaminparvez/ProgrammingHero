@@ -1,16 +1,28 @@
-function fetchData(){
-  fetch('https://jsonplaceholder.typicode.com/users')
-  .then(response => response.json())
-  .then(json => displayData(json))
+const loadPhones = async () => {
+  const url = `https://openapi.programming-hero.com/api/phones?search=iphone`
+  const response = await fetch(url)
+  const data = await response.json()
+  displayPhones(data.data)
 }
 
-function displayData(json){
-  const getUser = document.getElementById('user-id');
-  for(const user of json){
-    console.log(user)
-    
-  }
+const displayPhones = (phones) => {
+  const phoneContainer = document.getElementById('card-container');
+  phones.forEach(phone => {
+    parentDiv = document.createElement('div');
+    parentDiv.classList.add('col');
+    parentDiv.innerHTML = `
+      <div class="card h-100">
+        <img src="${phone.image}" class="card-img-top p-3 w-50 d-flex justify-content-center m-auto">
+        <div class="card-body">
+          <h5 class="card-title text-center">${phone.phone_name}</h5>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-info text-white d-flex justify-content-center m-auto">View Details</button>
+        </div>
+      </div>
+    `
+    phoneContainer.appendChild(parentDiv);
+  });
 }
 
-
-
+loadPhones()
