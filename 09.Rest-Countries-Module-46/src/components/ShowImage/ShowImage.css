@@ -1,0 +1,14 @@
+.Motion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.Motion-Img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+}
