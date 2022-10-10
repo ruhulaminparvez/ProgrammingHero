@@ -7,7 +7,7 @@ const Product = (props) => {
         <div className='product'>
             <img className='product-img' src={img} alt="" />
             <div className='product-item'>
-                <h2>{name}</h2>
+                <h2>{name.slice(0, 20)}</h2>
                 <p><b>Category:</b>  {category}</p>
                 <p><b>Price:</b> ${price}</p>
                 <p><b>Quantity:</b> {quantity}</p>
