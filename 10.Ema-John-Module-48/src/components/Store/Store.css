@@ -19,7 +19,7 @@
 }
 
 .cart-title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
     color: black;
     margin-top: 30%;
@@ -38,8 +38,8 @@
     color: white;
     padding: 10px 20px;
     margin-top: 20px;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     border: none;
     border-radius: 5px;
     width: 200px;
@@ -51,8 +51,8 @@
     color: whitesmoke;
     padding: 10px 20px;
     margin-top: 20px;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     border: none;
     border-radius: 5px;
     width: 200px;
@@ -71,8 +71,8 @@
     color: white;
     padding: 10px 20px;
     margin-top: 20px;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     border: none;
     border-radius: 5px;
     width: 200px;
@@ -84,8 +84,8 @@
     color: whitesmoke;
     padding: 10px 20px;
     margin-top: 20px;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     border: none;
     border-radius: 5px;
     width: 200px;
