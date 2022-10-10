@@ -6,6 +6,7 @@ const loadPhones = async (searchText) => {
 }
 
 const displayPhones = (phones) => {
+  
   const phoneContainer = document.getElementById('card-container');
   phoneContainer.innerHTML = '';
 
@@ -25,7 +26,11 @@ const displayPhones = (phones) => {
     `
     phoneContainer.appendChild(parentDiv);
   });
+  //loader stop here
+  toggleSpinner(false)
 }
+
+
 
 const loadDetails = async (phoneId) => { 
   const url = `https://openapi.programming-hero.com/api/phone/${phoneId}`;
@@ -104,4 +109,17 @@ document.getElementById('btn-search').addEventListener('click', function () {
   const getSearchValue = document.getElementById('get-search-value');
   const searchText = getSearchValue.value;
   loadPhones(searchText);
+  toggleSpinner(true);
 });
+
+
+const toggleSpinner = isLoading =>{
+  const loaderSection = document.getElementById("loader");
+  if(isLoading) {
+    loaderSection.classList.remove('d-none');
+  }
+  else {
+    loaderSection.classList.add('d-none');
+
+  }
+}
