@@ -1,8 +1,9 @@
 import React from 'react';
+import './Syndrome.css';
 
 const Syndrome = () => {
     return (
-        <div>
+        <div className='syndrome-container'>
             <h5>Syndrome Page</h5>
         </div>
     );
