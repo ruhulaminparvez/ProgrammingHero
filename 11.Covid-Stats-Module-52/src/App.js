@@ -3,6 +3,7 @@ import Stats from './components/Stats/Stats';
 import Syndrome from './components/Syndrome/Syndrome';
 import Prevention from './components/Prevention/Prevention';
 import Contact from './components/Contact/Contact';
+import NotFound from './components/NotFound/NotFound';
 import Main from './components/layout/Main';
 import {
   createBrowserRouter,
@@ -18,8 +19,10 @@ function App() {
         { path: '/syndrome', element: <Syndrome/> },
         { path: '/prevention', element: <Prevention/> },
         { path: '/contact', element: <Contact/> },
+        { path: '*', element: <NotFound/> }
      ]
     },
+    { path: '*', element: <NotFound/> }
    ]);
 
   return (
