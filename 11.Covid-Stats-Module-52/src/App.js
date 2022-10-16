@@ -15,6 +15,7 @@ function App() {
     { path: '/',
      element: <Main/>,
      children: [
+        { path: '/', element: <Stats/> },
         { path: '/stats', element: <Stats/> },
         { path: '/syndrome', element: <Syndrome/> },
         { path: '/prevention', element: <Prevention/> },

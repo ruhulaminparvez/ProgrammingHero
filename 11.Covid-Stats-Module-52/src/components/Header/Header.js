@@ -10,8 +10,7 @@ const Header = () => {
                 <Link to='/'><img className='logo' src={logo} alt="" /></Link>
             </div>
             <nav className='nav-items'>
-                <Link className='nav-item' to="/">Home</Link>
-                <Link className='nav-item' to="/stats">Stats</Link>
+                <Link className='nav-item' to="/stats">Home</Link>
                 <Link className='nav-item' to="/syndrome">Syndrome</Link>
                 <Link className='nav-item' to="/prevention">Prevention</Link>
                 <Link className='nav-item' to="/contact">Contact</Link>
